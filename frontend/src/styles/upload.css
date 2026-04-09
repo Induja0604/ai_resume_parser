@@ -1,0 +1,76 @@
+/* MAIN HEADING */
+.main-heading {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #1f2937;
+}
+
+.main-heading span {
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+
+  /* Standard property */
+  background-clip: text;
+
+  /* Webkit support */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  color: transparent;
+}
+
+/* SUBTEXT */
+.sub-text {
+  text-align: center;
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+/* UPLOAD CARD (MERGED) */
+.upload-card {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 25px;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+
+/* FILE INPUT */
+.upload-card input {
+  margin: 15px 0;
+  padding: 10px;
+}
+
+/* BUTTON */
+.btn {
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  color: white;
+  padding: 12px 22px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+/* BUTTON HOVER */
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(99, 102, 241, 0.3);
+}
+
+/* RESULT */
+.result {
+  margin-top: 20px;
+  text-align: left;
+  background: #f9fafb;
+  padding: 12px;
+  border-radius: 10px;
+}
+
